@@ -113,11 +113,22 @@ plt.show()
 ```
 
 ### 3. Support the selection of appropriate statistical tools and techniques
+Based on the hypothesis and assumptions, I selected linear regression as the statistical tool and technique which will be used to assess whether sales of 2Market products is driven by social media advertising. The dependent variable or predicted variable is sales and the independent variable or predictor variable is social media that is Facebook, Instagram and Twitter.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+A simple linear regression model is given as below:
+
+<images/IMG_8459.jpeg/>
+
+Y is the dependent variable or predicted variable. For this analyses Y is sales.
+
+X is independent variable or predictor variable. For this analyses X is Facebook, Instagram and Twitter.
+
+Bo is the intercept or the predicted value of sales (Y) when all of the independent variable i.e. Facebook, Instagram and Twitter is equal to zero.
+
+B1 is the slope coefficient or the amount of increase in sales when there is a unit (1) increase in either Facebook, Instagram or Twiitter.
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Since the conclusion is that social media is the most effective form of advertising more than brochure (print) or e-mail channels, it will be of great benefit if data on which product type were bought through a particular social media channel is collected. Analysing this data will provide meaningful and actionable insight into which social media channel drives the sales of which product type so that targeted advertising can be deployed to drive sales and revenue even further. This approach will further aid the delivery of impactful analytics that provides real business value.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
