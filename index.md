@@ -4,7 +4,7 @@
 
 ### Data Analytics & Visualisation 
 
-[2Market Customer Behaviour And Demogrpahics](/sample_page)
+[2Market Customer Behaviour And Demographics](/sample_page)
 <img src="images/2Market.png"/>
 
 ---
