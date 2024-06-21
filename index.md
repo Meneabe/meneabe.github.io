@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Data Analytics & Visualisation 
 
-[Project 1 Title](/sample_page)
+[2Market Customer Behaviour And Demogrpahics](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
