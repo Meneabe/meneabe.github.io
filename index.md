@@ -5,7 +5,7 @@
 ### Data Analytics & Visualisation 
 
 [2Market Customer Behaviour And Demogrpahics](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/2Market.png"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
