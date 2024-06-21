@@ -47,7 +47,7 @@ dw = durbin_watson(model.residuals)
 print(f'Durbin-Watson: {dw}')
 ```
 
-Homoscedasticity: The variance of the residuals is constant across all levels of the independent variable.
+Homoscedasticity: The variance of the residuals is constant across all levels of the independent variable. This means there is no heteroscedasticity.
 
 Residual Plot:
 I used the same residual plot to check if residuals have constant variance.
