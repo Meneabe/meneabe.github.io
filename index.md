@@ -8,7 +8,7 @@
 <img src="images/2Market.png"/>
 
 ---
-[2Market Presentation](/pdf/2Market Exploratory Analyses.pdf)
+[2Market Presentation](/pdf/sample_presentation.pdf)
 <img src="images/2Market1.png"/>
 
 ---
