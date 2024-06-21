@@ -17,10 +17,10 @@
 
 ---
 
-### Category Name 2
+### Project List
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
+- [2Market Customer Behaviour And Demographics](https://meneabe.github.io/sample_page/)
+- [2Market Presentation](https://meneabe.github.io/pdf/2Market%20Exploratory%20Analyses.pdf/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
