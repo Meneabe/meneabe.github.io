@@ -1,11 +1,14 @@
 title: Kwabena Ackon # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+logo: "images/Subject.png"  # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  I am a full stack Data Scientist with expertise in Data Analytics and Data Visualisation 
   <br><br>
-  Second description 
+  Top skills:
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  Python, R, SQL, Tableau, Excel, Prompt Engineering and Project Management
+  <br><br>
+  Get In Touch
+  <a href="https://www.linkedin.com/in/kwabena-ackon-03727430a/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
