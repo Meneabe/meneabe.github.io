@@ -117,7 +117,7 @@ Based on the hypothesis and assumptions, I selected linear regression as the sta
 
 A simple linear regression model is given as below:
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/IMG_8459.jpeg"/>
 
 Y is the dependent variable or predicted variable. For this analyses Y is sales.
 
