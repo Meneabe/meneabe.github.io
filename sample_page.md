@@ -50,7 +50,7 @@ print(f'Durbin-Watson: {dw}')
 Homoscedasticity: The variance of the residuals is constant across all levels of the independent variable.
 
 Residual Plot:
-Use the same residual plot to check if residuals have constant variance.
+I used the same residual plot to check if residuals have constant variance.
 
 ```
 plt.scatter(model.fittedvalues, model.residuals)
