@@ -127,6 +127,8 @@ Bo is the intercept or the predicted value of sales (Y) when all of the independ
 
 B1 is the slope coefficient or the amount of increase in sales when there is a unit (1) increase in either Facebook, Instagram or Twiitter.
 
+e is the error term (residuals).
+
 ### 4. Provide a basis for further data collection through surveys or experiments
 
 Since the conclusion is that social media is the most effective form of advertising more than brochure (print) or e-mail channels, it will be of great benefit if data on which product type were bought through a particular social media channel is collected. Analysing this data will provide meaningful and actionable insight into which social media channel drives the sales of which product type so that targeted advertising can be deployed to drive sales and revenue even further. This approach will further aid the delivery of impactful analytics that provides real business value.
