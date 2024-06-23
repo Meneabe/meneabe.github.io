@@ -125,7 +125,7 @@ X is predictor variable. For this analyses X is Facebook, Instagram and Twitter.
 
 Bo is the intercept or the predicted value of sales (Y) when all of the predictor variable i.e. Facebook, Instagram and Twitter is equal to zero.
 
-B1 is the slope coefficient or the amount of increase or decrease in sales when there is a unit (1) increase in either Facebook, Instagram or Twiitter.
+B1 is the slope coefficient or the amount of increase or decrease in sales when there is a unit (1) increase in either Facebook, Instagram or Twiitter advertising.
 
 e is the error term (residuals).
 
