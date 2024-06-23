@@ -16,7 +16,7 @@ Sales growth is explained by sales of liquor.
 
 Based on the data and hypothesis that sales of 2Market products is driven by social media advertising, I made five(5) assumptions about the data and variables. The following are the assumptions:
 
-Linearity: The relationship between the independent variable (Facebook, Instagram and Twitter) and the dependent variable (sales) is linear.
+Linearity: The relationship between the predictor variable (Facebook, Instagram and Twitter) and the predicted variable (sales) is linear.
 
 Scatter plot:
 
@@ -47,7 +47,7 @@ dw = durbin_watson(model.residuals)
 print(f'Durbin-Watson: {dw}')
 ```
 
-Homoscedasticity: The variance of the residuals is constant across all levels of the independent variable. This means there is no heteroscedasticity.
+Homoscedasticity: The variance of the residuals is constant across all levels of the predictor variable. This means there is no heteroscedasticity.
 
 Residual Plot:
 I used the same residual plot to check if residuals have constant variance.
@@ -93,7 +93,7 @@ stat, p = shapiro(model.residuals)
 print(f'Statistic={stat}, p-value={p}')
 ```
 
-No Multicollinearity: The independent variables are not highly correlated (if there are multiple predictors). But correlation between each independent variable and the dependent variable should be high. That is correlation between Facebook, Instagram and Twitter should be low but correlation between Facebook and sales, Instagram and sales, Twitter and sales should be high.
+No Multicollinearity: The predictor variables are not highly correlated (if there are multiple predictors). But correlation between each predictor variable and the predicted variable should be high. That is correlation between Facebook, Instagram and Twitter should be low but correlation between Facebook and sales, Instagram and sales, Twitter and sales should be high.
 
 Variance Inflation Factor (VIF):
 
@@ -113,17 +113,17 @@ plt.show()
 ```
 
 ### 3. Support the selection of appropriate statistical tools and techniques
-Based on the hypothesis and assumptions, I selected linear regression as the statistical tool and technique which will be used to assess whether sales of 2Market products is driven by social media advertising. The dependent variable or predicted variable is sales and the independent variable or predictor variable is social media that is Facebook, Instagram and Twitter.
+Based on the hypothesis and assumptions, I selected linear regression as the statistical tool and technique which will be used to assess whether sales of 2Market products is driven by social media advertising. The predicted variable is sales and the predictor variable is social media that is Facebook, Instagram and Twitter.
 
 A simple linear regression model is given as below:
 
 <img src="images/IMG_8459.jpeg"/>
 
-Y is the dependent variable or predicted variable. For this analyses Y is sales.
+Y is the predicted variable. For this analyses Y is sales.
 
-X is independent variable or predictor variable. For this analyses X is Facebook, Instagram and Twitter.
+X is predictor variable. For this analyses X is Facebook, Instagram and Twitter.
 
-Bo is the intercept or the predicted value of sales (Y) when all of the independent variable i.e. Facebook, Instagram and Twitter is equal to zero.
+Bo is the intercept or the predicted value of sales (Y) when all of the predictor variable i.e. Facebook, Instagram and Twitter is equal to zero.
 
 B1 is the slope coefficient or the amount of increase in sales when there is a unit (1) increase in either Facebook, Instagram or Twiitter.
 
