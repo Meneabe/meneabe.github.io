@@ -16,7 +16,7 @@ Sales growth is explained by sales of liquor.
 
 Based on the data and hypothesis that sales of 2Market products is driven by social media advertising, I made five(5) assumptions about the data and variables. The following are the assumptions:
 
-Linearity: The relationship between the predictor variable (Facebook, Instagram and Twitter) and the predicted variable (sales) is linear.
+Linearity: The relationship between the predictor variable (Facebook, Instagram and Twitter) and the dependent variable (sales) is linear.
 
 Scatter plot:
 
@@ -93,7 +93,7 @@ stat, p = shapiro(model.residuals)
 print(f'Statistic={stat}, p-value={p}')
 ```
 
-No Multicollinearity: The predictor variables are not highly correlated (if there are multiple predictors). But correlation between each predictor variable and the predicted variable should be high. That is correlation between Facebook, Instagram and Twitter should be low but correlation between Facebook and sales, Instagram and sales, Twitter and sales should be high.
+No Multicollinearity: The predictor variables are not highly correlated (if there are multiple predictors). But correlation between each predictor variable and the dependent variable should be high. That is correlation between Facebook, Instagram and Twitter should be low but correlation between Facebook and sales, Instagram and sales, Twitter and sales should be high.
 
 Variance Inflation Factor (VIF):
 
@@ -113,13 +113,13 @@ plt.show()
 ```
 
 ### 3. Support the selection of appropriate statistical tools and techniques
-Based on the hypothesis and assumptions, I selected linear regression as the statistical tool and technique which will be used to assess whether sales of 2Market products is driven by social media advertising. The predicted variable is sales and the predictor variable is social media that is Facebook, Instagram and Twitter.
+Based on the hypothesis and assumptions, I selected linear regression as the statistical tool and technique which will be used to assess whether sales of 2Market products is driven by social media advertising. The dependent variable is sales and the predictor variable is social media i.e. Facebook, Instagram and Twitter.
 
 A simple linear regression model is given as below:
 
 <img src="images/IMG_8459.jpeg"/>
 
-Y is the predicted variable. For this analyses Y is sales.
+Y is the dependent variable. For this analyses Y is sales.
 
 X is predictor variable. For this analyses X is Facebook, Instagram and Twitter.
 
