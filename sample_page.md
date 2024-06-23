@@ -93,7 +93,7 @@ stat, p = shapiro(model.residuals)
 print(f'Statistic={stat}, p-value={p}')
 ```
 
-No Multicollinearity: The independent variables are not highly correlated (if there are multiple predictors). But correlation between each independent variable and the dependent variable should be high. That is correlation between Facebook, Instagram and Twitter should be low but correlation between Facebook and sales, Instagram and sales, Twitter and sales should be significantly high.
+No Multicollinearity: The independent variables are not highly correlated (if there are multiple predictors). But correlation between each independent variable and the dependent variable should be high. That is correlation between Facebook, Instagram and Twitter should be low but correlation between Facebook and sales, Instagram and sales, Twitter and sales should be high.
 
 Variance Inflation Factor (VIF):
 
