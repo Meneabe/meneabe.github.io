@@ -32,7 +32,7 @@
 </head>
 <body>
     <h1>Capital Asset Pricing Model, CAPM</h1>
-    <p>I apply the simple linear regression model to study the relationship between two series of financial returns – a regression of Cisco Systems stock returns, y, on S&P500 index returns, x (CAPM).</p>
+    <p>I applied the simple linear regression model to study the relationship between two series of financial returns – a regression of Cisco Systems stock returns, y, on S&P500 index returns, x (CAPM).</p>
     <p>Stock returns are defined as:</p>
     <p><strong>return = (current price - previous price) / previous price ≈ log(current price / previous price)</strong></p>
     <p>when the difference between the two prices is small.</p>
