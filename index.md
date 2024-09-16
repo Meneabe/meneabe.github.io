@@ -19,7 +19,7 @@
 
 ### Project List
 
-- [2Market Customer Behaviour And Demographics](https://meneabe.github.io/sample_page/)
+- [Capital Asset Pricing Model (CAPM) For Cisco](https://meneabe.github.io/sample_page/)
 - [2Market Presentation](https://meneabe.github.io/pdf/2Market%20Exploratory%20Analyses.pdf/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
