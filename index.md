@@ -4,7 +4,7 @@
 
 ### Data Analytics & Visualisation 
 
-[2Market Customer Behaviour And Demographics](/sample_page)
+[Capital Asset Pricing Model (CAPM) For Cisco](/sample_page)
 <img src="images/2Market.png"/>
 
 ---
