@@ -10,11 +10,11 @@
 ---
 [Predictive Analytics For Financial Markets](/pdf/Predictive Analytics.pdf)
 <img src="images/2Market1.png"/>
+<img src="images/image2.png">
 
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-<img src="images/image2.png">
 
 
 ---
