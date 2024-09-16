@@ -40,7 +40,7 @@
 </body>
 </html>
 
-<img src="images/IMG_8459.jpeg"/>
+<img src="images/image.png"/>
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
