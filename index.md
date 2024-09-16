@@ -21,7 +21,7 @@
 ### Project List
 
 - [Capital Asset Pricing Model (CAPM) For Cisco](https://meneabe.github.io/sample_page/)
-- [2Market Presentation](https://meneabe.github.io/pdf/2Market%20Exploratory%20Analyses.pdf/)
+- [Predictive Analytics For Financial Markets Presentation](https://meneabe.github.io/pdf/2Market%20Exploratory%20Analyses.pdf/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
