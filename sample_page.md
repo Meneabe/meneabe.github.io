@@ -40,9 +40,7 @@
 </body>
 </html>
 
-
-This insight into 2Market customer purchase behaviour will enable 2Market to target the right customer segment and market to each group effectively and appropriately. Insight into the most effective advertising channel will enable 2Market to efficiently allocate resources to advertising. The cost or impact of not knowing 2Market customer purchase behaviour is losing customers to competitors which will impact 2Market’s bottom-line.
-.
+<img src="images/IMG_8459.jpeg"/>
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
