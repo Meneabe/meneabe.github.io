@@ -49,6 +49,38 @@ We can see that Cisco and S&P 500 is highly correlated which satisfies the assum
 <img src="images/image3.png">
 <img src="images/image4.png">
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPM Regression Output</title>
+</head>
+<body>
+    <h1>Capital Asset Pricing Model, CAPM</h1>
+    <p>We fit the regression model: Cisco = β<sub>0</sub> + β<sub>1</sub>S&P500 + ε.</p>
+    <p>Our rationale is that part of the fluctuation in Cisco returns was driven by the fluctuation in the S&P500 returns.</p>
+    <pre>
+> reg <- lm(Cisco ~ SP500)
+> summary(reg)
+
+Call:
+lm(formula = Cisco ~ SP500)
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -0.04517    0.04343   -1.04    0.300    
+SP500         1.04775    0.19433    5.39   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3 on 205 degrees of freedom
+Multiple R-squared: 0.4718, Adjusted R-squared: 0.4697
+F-statistic: 223 on 1 and 204 DF, p-value: < 2.2e-16
+    </pre>
+</body>
+</html>
+
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sales of 2Market products is driven by social media advertising. 
