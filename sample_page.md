@@ -59,7 +59,7 @@ We can see that Cisco and S&P 500 is highly correlated which satisfies the assum
 <body>
     <h1>Capital Asset Pricing Model, CAPM</h1>
     <p>I fitted the regression model: Cisco = β<sub>0</sub> + β<sub>1</sub>S&P500 + ε.</p>
-    <p>Our rationale is that part of the fluctuation in Cisco returns was driven by the fluctuation in the S&P500 returns.</p>
+    <p>The rationale is that part of the fluctuation in Cisco returns was driven by the fluctuation in the S&P500 returns.</p>
     <pre>
 > reg <- lm(Cisco ~ SP500)
 > summary(reg)
