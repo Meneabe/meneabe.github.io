@@ -81,6 +81,22 @@ F-statistic: 223 on 1 and 204 DF, p-value: < 2.2e-16
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital Asset Pricing Model (CAPM)</title>
+</head>
+<body>
+    <h1>Capital Asset Pricing Model (CAPM)</h1>
+    <p>The estimated slope is β<sub>1</sub> = 2.07715. The null hypothesis H<sub>0</sub>: β<sub>1</sub> = 0 is rejected with a p-value of 0.000 (to three decimal places). Therefore, the test is extremely significant.</p>
+    <p>Our interpretation is that when the market index goes up by 1%, Cisco stock goes up by 2.07715%, on average. However, the error term ε in the model is large with an estimated σ<sub>ε</sub> = 3.083%.</p>
+    <p>The p-value for testing H<sub>0</sub>: β<sub>0</sub> = 0 is 0.815, so we cannot reject the hypothesis that β<sub>0</sub> = 0. Recall β<sub>0</sub> = y - β<sub>1</sub>x and both y and ε are very close to 0.</p>
+    <p>R<sup>2</sup> = 47.18%, hence 47.18% of the variation of Cisco stock may be explained by the variation of the S&P 500 index, or, in other words, 47.18% of the risk in Cisco stock is the market-related risk.</p>
+</body>
+</html>
+
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sales of 2Market products is driven by social media advertising. 
