@@ -2,7 +2,7 @@
 
 **Project description:** This is a predictive analytics using the capital asset pricing model (CAPM) which is a simple asset pricing model in finance. CAPM is a linear regression model.
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,7 +23,7 @@
 </body>
 </html>
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,7 +49,7 @@ We can see that Cisco and S&P 500 is highly correlated which satisfies the assum
 <img src="images/image3.png">
 <img src="images/image4.png">
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,7 +81,7 @@ F-statistic: 223 on 1 and 204 DF, p-value: < 2.2e-16
 </body>
 </html>
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
