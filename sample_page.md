@@ -7,19 +7,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linear Regression Equation</title>
+    <title>CAPM Explanation</title>
 </head>
 <body>
-    <h1>Linear Regression Equation</h1>
-    <p>The equation of a simple linear regression is:</p>
-    <p><strong>y = mx + b</strong></p>
-    <p>Where:</p>
+    <h1>Capital Asset Pricing Model (CAPM)</h1>
+    <p>The capital asset pricing model (CAPM) is a simple asset pricing model in finance given by:</p>
+    <p><strong>y<sub>i</sub> = β<sub>0</sub> + β<sub>1</sub>x<sub>i</sub> + e<sub>i</sub></strong></p>
+    <p>where y<sub>i</sub> is a stock return and x<sub>i</sub> is a market return at time i.</p>
+    <p>Some remarks are the following:</p>
     <ul>
-        <li><strong>y</strong> is the dependent variable</li>
-        <li><strong>x</strong> is the independent variable</li>
-        <li><strong>m</strong> is the slope of the line</li>
-        <li><strong>b</strong> is the y-intercept</li>
+        <li>β<sub>1</sub> measures the market-related (or systematic) risk of the stock.</li>
+        <li>Market-related risk is unavoidable, while firm-specific risk may be 'diversified away' through hedging.</li>
+        <li>Variance is a simple measure (and one of the most frequently-used) of risk in finance.</li>
     </ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPM Explanation</title>
+</head>
+<body>
+    <h1>Capital Asset Pricing Model, CAPM</h1>
+    <p>I apply the simple linear regression model to study the relationship between two series of financial returns – a regression of Cisco Systems stock returns, y, on S&P500 index returns, x (CAPM).</p>
+    <p>Stock returns are defined as:</p>
+    <p><strong>return = (current price - previous price) / previous price ≈ log(current price / previous price)</strong></p>
+    <p>when the difference between the two prices is small.</p>
+    <p>The data file ‘Returns.csv’ contains daily observations over a January - 29 December 2000 (i.e., n=252 returns). The dataset has 5 columns: Day, S&P500 return, Cisco return, Intel return and Sprint return.</p>
 </body>
 </html>
 
