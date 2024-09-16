@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAPM Explanation</title>
+    CAPM Explanation
 </head>
 <body>
     <h1>Capital Asset Pricing Model (CAPM)</h1>
