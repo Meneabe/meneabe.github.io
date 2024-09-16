@@ -69,12 +69,12 @@ lm(formula = Cisco ~ SP500)
 
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  -0.04517    0.04343   -1.04    0.300    
-SP500         1.04775    0.19433    5.39   <2e-16 ***
+(Intercept)  -0.04547    0.19433   -0.234    0.815    
+SP500         2.00715    0.13900   14.943   <2e-16 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 3 on 205 degrees of freedom
+Residual standard error: 3.083 on 205 degrees of freedom
 Multiple R-squared: 0.4718, Adjusted R-squared: 0.4697
 F-statistic: 223 on 1 and 204 DF, p-value: < 2.2e-16
     </pre>
@@ -91,7 +91,7 @@ F-statistic: 223 on 1 and 204 DF, p-value: < 2.2e-16
 <body>
     <h1>Capital Asset Pricing Model (CAPM)</h1>
     <p>The estimated slope is β<sub>1</sub> = 2.07715. The null hypothesis H<sub>0</sub>: β<sub>1</sub> = 0 is rejected with a p-value of 0.000 (to three decimal places). Therefore, the test is extremely significant.</p>
-    <p>Our interpretation is that when the market index goes up by 1%, Cisco stock goes up by 2.07715%, on average. However, the error term ε in the model is large with an estimated σ<sub>ε</sub> = 3.083%.</p>
+    <p>The interpretation is that when the market index goes up by 1%, Cisco stock goes up by 2.07715%, on average. However, the error term ε in the model is large with an estimated σ<sub>ε</sub> = 3.083%.</p>
     <p>The p-value for testing H<sub>0</sub>: β<sub>0</sub> = 0 is 0.815, so we cannot reject the hypothesis that β<sub>0</sub> = 0. Recall β<sub>0</sub> = y - β<sub>1</sub>x and both y and ε are very close to 0.</p>
     <p>R<sup>2</sup> = 47.18%, hence 47.18% of the variation of Cisco stock may be explained by the variation of the S&P 500 index, or, in other words, 47.18% of the risk in Cisco stock is the market-related risk.</p>
 </body>
