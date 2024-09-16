@@ -8,7 +8,7 @@
 <img src="images/Scatterplot of S&P500 and Cisco daily returns.png"/>
 
 ---
-[pdf/Predictive Analytics.pdf](/pdf/2Market Exploratory Analysesd.pdf)
+[Predictive Analytics For Financial Markets](pdf/Predictive Analytics.pdf)
 <img src="images/2Market1.png"/>
 
 ---
