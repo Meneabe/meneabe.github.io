@@ -13,7 +13,6 @@
 
 ---
 [Exploratory Analyses For Financial Markets](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 <img src="images/image.png">
 
 ---
@@ -22,7 +21,7 @@
 
 - [Capital Asset Pricing Model (CAPM) For Cisco](https://meneabe.github.io/sample_page)
 - [Predictive Analytics For Financial Markets Presentation](https://meneabe.github.io/pdf/Predictive%20Analytics.pdf)
-- [Project 3 Title](http://example.com/)
+- [Exploratory Analyses For Financial Markets](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
 
