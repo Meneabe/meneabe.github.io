@@ -1,4 +1,4 @@
-## 2Market
+## Cisco
 
 **Project description:** The capital asset pricing model (CAPM) is a simple asset pricing model in finance given by:
 
