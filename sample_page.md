@@ -99,24 +99,21 @@ F-statistic: 223 on 1 and 204 DF, p-value: < 2.2e-16
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
-Sales of 2Market products is driven by social media advertising. 
-
-Sales growth is explained by sales of liquor.
-
+Part of the fluctuation in Cisco returns is driven by fluctuations in the S&P500 returns.
 
 ### 2. Assess assumptions on which statistical inference will be based
 
-Based on the data and hypothesis that sales of 2Market products is driven by social media advertising, I made five(5) assumptions about the data and variables. The following are the assumptions:
+Based on the data and hypothesis that part of the fluctuation in Cisco returns is driven by fluctuations in the S&P500 returns, I made five(5) assumptions about the data and variables.
 
-Linearity: The relationship between the predictor variable (Facebook, Instagram and Twitter) and the dependent variable (sales) is linear.
+Linearity: The relationship between the predictor variable (S&P500) and the dependent variable (Cisco) is linear.
 
 Scatter plot:
 
 ```
 import matplotlib.pyplot as plt
-plt.scatter(advertising_spend, sales)
-plt.xlabel('Social Media Advertising Spend')
-plt.ylabel('Sales')
+plt.scatter(S&P500, Cisco)
+plt.xlabel('Scatterplot of Stock and Market returns')
+plt.ylabel('Cisco')
 plt.show()
 ```
 Residual plot:
@@ -185,7 +182,7 @@ stat, p = shapiro(model.residuals)
 print(f'Statistic={stat}, p-value={p}')
 ```
 
-No Multicollinearity: The predictor variables are not highly correlated (if there are multiple predictors). But correlation between each predictor variable and the dependent variable should be high. That is correlation between Facebook, Instagram and Twitter should be low but correlation between Facebook and sales, Instagram and sales, Twitter and sales should be high.
+No Multicollinearity: The predictor variables are not highly correlated (if there are multiple predictors). But correlation between each predictor variable and the dependent variable should be high. That is correlation between S&P500, Intel and Sprint should be low but correlation between S&P500 and Cisco should be high.
 
 Variance Inflation Factor (VIF):
 
@@ -205,24 +202,10 @@ plt.show()
 ```
 
 ### 3. Support the selection of appropriate statistical tools and techniques
-Based on the hypothesis and assumptions, I selected linear regression as the statistical tool and technique which will be used to assess whether sales of 2Market products is driven by social media advertising. The dependent variable is sales and the predictor variable is social media i.e. Facebook, Instagram and Twitter.
-
-A simple linear regression model is given as below:
-
-<img src="images/IMG_8459.jpeg"/>
-
-Y is the dependent variable. For this analyses Y is sales.
-
-X is predictor variable. For this analyses X is Facebook, Instagram and Twitter.
-
-Bo is the intercept or the predicted value of sales (Y) when all of the predictor variable i.e. Facebook, Instagram and Twitter is equal to zero.
-
-B1 is the slope coefficient or the amount of increase or decrease in sales when there is a unit (1) increase in either Facebook, Instagram or Twiitter advertising.
-
-e is the error term (residuals).
+Based on the hypothesis and assumptions, I selected linear regression as the statistical tool and technique which will be used to test whether part of the fluctuation in Cisco returns is explained by fluctuations in S&P500 returns. The dependent variable is Cisco returns and the predictor variable is S&P500.
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
-Since the conclusion is that social media is the most effective form of advertising more than brochure (print) or e-mail channels, it will be of great benefit if data on which product type were bought through a particular social media channel is collected. Analysing this data will provide meaningful and actionable insight into which social media channel drives the sales of which product type so that targeted advertising can be deployed to drive sales and revenue even further. This approach will further aid the delivery of impactful analytics that provides real business value.
+Since the conclusion is that part (47%) of the fluctuations in Cisco returns is explained by fluctuations in S&P500 returns, a multiple linear regression can be used to test whether the remainder of the variation in Cisco returns is explained by earnings per share (EPS) and a price to earnings (P/E) ratio.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
