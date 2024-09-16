@@ -1,6 +1,28 @@
 ## 2Market
 
-**Project description:** 2Market is a global supermarket which sells products online and in store. 2Market wants to understand their customer purchase behaviour. In particular, 2Market wants to understand the demographics of their customers, which advertising channels seem to be the most effective, which products seem to sell the best and if that varies based on demographic.
+**Project description:** The capital asset pricing model (CAPM) is a simple asset pricing model in finance given by:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Regression Equation</title>
+</head>
+<body>
+    <h1>Linear Regression Equation</h1>
+    <p>The equation of a simple linear regression is:</p>
+    <p><strong>y = mx + b</strong></p>
+    <p>Where:</p>
+    <ul>
+        <li><strong>y</strong> is the dependent variable</li>
+        <li><strong>x</strong> is the independent variable</li>
+        <li><strong>m</strong> is the slope of the line</li>
+        <li><strong>b</strong> is the y-intercept</li>
+    </ul>
+</body>
+</html>
+
 
 This insight into 2Market customer purchase behaviour will enable 2Market to target the right customer segment and market to each group effectively and appropriately. Insight into the most effective advertising channel will enable 2Market to efficiently allocate resources to advertising. The cost or impact of not knowing 2Market customer purchase behaviour is losing customers to competitors which will impact 2Market’s bottom-line.
 .
