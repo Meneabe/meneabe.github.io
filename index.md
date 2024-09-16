@@ -5,7 +5,7 @@
 ### Data Analytics & Visualisation 
 
 [Capital Asset Pricing Model (CAPM) For Cisco](/sample_page)
-<img src="images/2Market.png"/>
+<img src="images/Scatterplot of S&P500 and Cisco daily returns.png"/>
 
 ---
 [2Market Presentation](/pdf/2Market Exploratory Analysesd.pdf)
