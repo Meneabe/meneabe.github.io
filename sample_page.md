@@ -45,6 +45,9 @@
 
 We can see that Cisco and S&P 500 is highly correlated which satisfies the assumption that the independent variable should be correlated with the dependent variable.
 
+<img src="images/image2.png">
+
+
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sales of 2Market products is driven by social media advertising. 
