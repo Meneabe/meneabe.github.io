@@ -2,7 +2,7 @@
 
 ---
 
-### Data Analytics & Visualisation 
+### Predictive Analytics For Financial Markets 
 
 [Capital Asset Pricing Model (CAPM) For Cisco](/sample_page)
 <img src="images/Scatterplot of S&P500 and Cisco daily returns.png"/>
