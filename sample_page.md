@@ -54,7 +54,7 @@ We can see that Cisco and S&P 500 is highly correlated which satisfies the assum
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAPM Regression Output</title>
+    
 </head>
 <body>
     <h1>Capital Asset Pricing Model, CAPM</h1>
