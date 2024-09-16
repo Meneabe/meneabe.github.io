@@ -41,6 +41,9 @@
 </html>
 
 <img src="images/image.png"/>
+<img src="images/image1.png">
+
+We can see that Cisco and S&P 500 is highly correlated which satisfies the assumption that the independent variable should be correlated with the dependent variable.
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
